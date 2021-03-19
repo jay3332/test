@@ -108,6 +108,7 @@ class CommandContext extends Messageable {
         if (!command) return NaN;
         const execParams = command.execParams;
         return new cls(message, bot, prefix, command, args);*/
+        // this
     }
 };
 
